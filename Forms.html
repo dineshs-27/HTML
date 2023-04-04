@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+    </head>
+    <body>
+        
+        <form action="action_page.php" method="post">
+
+        <div>
+            <label for="title">title : </label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" name="title" id="Mr." value="Mr." required>
+
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" name="title" id="Mrs." value="Mrs." required>
+
+            <label for="PhD.">PhD.</label>
+            <input type="radio" name="title" id="PhD." value="PhD." required>
+        </div>
+        <br>
+
+        <div>
+            <label for="fname">first name : </label>
+            <input type="text" name="fname" id="fname" placeholder="eg.John" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="lname">last name : </label>
+            <input type="text" name="lname" id="fname" placeholder="eg.Carter" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="pass">password : </label>
+            <input type="password" name="pass" id="pass" placeholder="eg.12345" maxlength="5" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="E-Mail">email : </label>
+            <input type="email" name="E-Mail" id="E-Mail" placeholder="eg.din02@gmail.com" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="phone">mobile number : </label>
+            <input type="tel" name="phone" id="phone" placeholder="eg.0000000000" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="bdate">birthdate : </label>
+            <input type="date" name="bdate" id="bdate" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="quantity">quantity : </label>
+            <input type="number" name="quantity" id="quantity" min="0" max="100" value="1" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="payment">payment : </label>
+            <select name="payment" id="payment" required>
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="robot">I'm not a robot : </label>
+            <input type="checkbox" name="robot" id="robot" required>
+        </div>
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+
+        
+        <div>
+            <input type="submit">
+        </div>
+        <br>
+
+        </form>
+
+    </body>
+</html>
