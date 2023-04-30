@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+}
+h1{
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-left-color: aqua;
+    border-right-width: 5px;
+}
+p{
+    border-style: outset;
+    border-width: 5px;
+    border-color: goldenrod;
+    border-radius: 10px;
+    padding: 5px;
+}
